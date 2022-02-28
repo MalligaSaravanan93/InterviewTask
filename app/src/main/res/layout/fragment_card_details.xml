@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/card_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:foregroundGravity="center"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/card_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:typeface="serif"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_image" />
+
+        <TextView
+            android:id="@+id/card_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type of card"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintTop_toBottomOf="@id/card_name"
+            />
+
+        <TextView
+            android:id="@+id/description_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:typeface="serif"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="description_card description_card description_card description_card description_card description_card description_card"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_type" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_card"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prices"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textSize="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/txt_prices"
+                    android:text="Card Market:"></TextView>
+
+                <TextView
+                    android:id="@+id/cardmarket_price"
+                    style="@style/txt_prices"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="TCG Player:"
+                    style="@style/txt_prices"></TextView>
+
+                <TextView
+                    android:id="@+id/tcgplayer_price"
+                    style="@style/txt_prices"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="E-Bay: "
+                    style="@style/txt_prices"></TextView>
+
+                <TextView
+                    android:id="@+id/ebay_price"
+                    style="@style/txt_prices"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="Amazon:"
+                    style="@style/txt_prices"></TextView>
+
+                <TextView
+                    android:id="@+id/amazon_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="Cool Stuff Inc:"
+                    style="@style/txt_prices"></TextView>
+
+                <TextView
+                    android:id="@+id/coolstuffinc_price"
+                    style="@style/txt_prices"></TextView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

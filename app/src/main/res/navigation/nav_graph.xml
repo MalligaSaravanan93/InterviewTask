@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cardsListFragment">
+
+    <fragment
+        android:id="@+id/cardsListFragment"
+        android:name="com.malliga.interviewtask.views.CardsFragment"
+        android:label="CardsList"
+        tools:layout="@layout/fragment_cards">
+
+        <action
+            android:id="@+id/action_interviewtaskListFragment_to_interviewtaskDetailFragment"
+            app:destination="@id/cardDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cardDetailFragment"
+        android:name="com.malliga.interviewtask.views.CardDetails"
+        android:label="CardDetails"
+        tools:layout="@layout/fragment_card_details" />
+
+</navigation>
