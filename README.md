@@ -17,6 +17,6 @@ This repository contains an android app for interview purpose. It implements MVV
 6. **view**: View classes along with their corresponding ViewModel.
 7. **viewmodel**: It contains the corresponding ViewModel.
 
-#### UI & Unit Testing:
+#### !Important: UI & Unit Testing:
 
-Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://blog.mindorks.com/introduction-to-dagger-2-using-dependency-injection-in-android-part-2-b55857911bcd#.mkpzyk8sa) Line no.88 && 97
+Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://raw.githubusercontent.com/MalligaSaravanan93/InterviewTask/master/app/src/main/java/com/malliga/interviewtask/view/CardsFragment.kt) Line no.88 && 97
