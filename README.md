@@ -16,3 +16,7 @@ This repository contains an android app for interview purpose. It implements MVV
 5. **utils**: It contains the utility classes and pagination listener.
 6. **view**: View classes along with their corresponding ViewModel.
 7. **viewmodel**: It contains the corresponding ViewModel.
+
+#### UI & Unit Testing:
+
+Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://blog.mindorks.com/introduction-to-dagger-2-using-dependency-injection-in-android-part-2-b55857911bcd#.mkpzyk8sa) Line no.88 && 97
