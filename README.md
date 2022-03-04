@@ -19,4 +19,4 @@ This repository contains an android app for interview purpose. It implements MVV
 
 #### !Important: UI & Unit Testing:
 
-Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://raw.githubusercontent.com/MalligaSaravanan93/InterviewTask/master/app/src/main/java/com/malliga/interviewtask/view/CardsFragment.kt) Line no.88 and 97
+Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://github.com/MalligaSaravanan93/InterviewTask/blob/78923fa5072b3dfd49ee7fca90c61d975e6db1ca/app/src/main/java/com/malliga/interviewtask/view/CardsFragment.kt) Line no.88 and 97
